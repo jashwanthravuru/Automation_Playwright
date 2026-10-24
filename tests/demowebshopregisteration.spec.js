@@ -28,13 +28,13 @@ const page= await browser.pages()[0]
     await page.locator('input[id="LastName"]').fill("Golla");
 
     ////enter email
-    await page.locator('input[name="Email"]').fill("sharuyadav132222@gmail.com");
+    await page.locator('input[name="Email"]').fill("sharuyadav092222@gmail.com");
 
     //enter password
-    await page.locator('input[name="Password"]').fill("Sharuyadav93");
+    await page.locator('input[name="Password"]').fill("Sharuyadavsun");
 
     //enter confirm password
-    await page.locator('input[name="ConfirmPassword"]').fill("Sharuyadav93");
+    await page.locator('input[name="ConfirmPassword"]').fill("Sharuyadavsun");
 
     //click on register
     await page.locator('input[name="register-button"]').click();
