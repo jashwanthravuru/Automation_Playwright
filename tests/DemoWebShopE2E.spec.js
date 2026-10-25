@@ -10,6 +10,7 @@ test("open the Application",async({})=>{
 
 const browser=await chromium.launchPersistentContext("",{channel:'msedge'})
 const page= await browser.pages()[0]
+await page.waitForTimeout(5000);
 await page.goto('https://demowebshop.tricentis.com/');
 //maximize window
     await page.setViewportSize({width: 1920,height: 1080 });
