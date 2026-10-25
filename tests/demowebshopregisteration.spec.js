@@ -8,7 +8,7 @@ test("open the Application",async({})=>{
 
 //launch the browser
 
-const browser=await chromium.launchPersistentContext("",{channel:'msedge'})
+const browser=await chromium.launchPersistentContext("",{channel:'chrome'})
 const page= await browser.pages()[0]
 
 
